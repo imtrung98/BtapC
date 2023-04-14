@@ -4,12 +4,12 @@ using namespace std;
 
 class Pointer2D{
     private:
-    float ToadoX;
-    float ToadoY;
+    float ToadoX; //tung do
+    float ToadoY; //hoanh do
     public:
     Pointer2D(float x=0, float y=0){
-       ToadoX = x;
-       ToadoY = y;
+       ToadoX = x; //tung do
+       ToadoY = y; //hoanh do
     }
     float getToadoX()const{
         return ToadoX;
